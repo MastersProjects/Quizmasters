@@ -1,0 +1,12 @@
+User-Agent: *
+Disallow: 
+Allow: /index.php
+Allow: /mainlogin.php
+Disallow: /styles
+Disallow: /sites
+Disallow: /img
+Disallow: /ressources
+Disallow: /commingsoon
+Disallow: /admin
+
+Sitemap: http://quizmasters.ch/sitemap.xml

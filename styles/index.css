@@ -1,0 +1,623 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Verdana', 'Arial', 'sans-serif'
+}
+
+/****************************************************************************************************************/
+
+/* ---------------*/
+/* --- Header --- */
+/* ---------------*/
+#header {
+	height: 100px;
+	background-image: -o-linear-gradient(bottom, #2071DB 0%, #1D67C8 100%);
+	background-image: -moz-linear-gradient(bottom, #2071DB 0%, #1D67C8 100%);
+	background-image: -webkit-linear-gradient(bottom, #2071DB 0%, #1D67C8 100%);
+	background-image: -ms-linear-gradient(bottom, #2071DB0 0%, #1D67C8 100%);
+	background-image: linear-gradient(to bottom, #2071DB 0%, #1D67C8 100%);
+	box-shadow: 0px 0px 15px 0px #000;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: auto;
+	z-index: 1000;
+}
+
+#header_left {
+	width: 172px ;
+	padding: 5px;
+	float: left;
+	padding-left: 10%;
+	padding-top: 25px;
+}
+
+#header h1 a {
+	font-family: 'Indie Flower', cursive;
+	color: #fff;
+	padding: 20px;
+	width: 350px;
+	text-decoration: none;
+}
+.logo{
+	height: 80px;;
+	width: auto;;
+}
+
+span {
+	color: #FF0300;
+	font-size: 14px;
+}
+
+/****************************************************************************************************************/
+
+/* ----------------*/
+/* --- content --- */
+/* ----------------*/
+#left {
+	float: left;
+	width: 45%;
+	padding: 2%;
+	/*padding-top: 150px;*/
+}
+
+#right {
+	float: right;
+	width: 45%;
+	padding: 2%;
+	/*padding-top: 150px;*/
+}
+
+.left {
+	float: left;
+	width: 75px;
+	padding: 2%;
+	/*padding-top: 150px;*/
+}
+
+.right {
+	float: left;
+	min-width: 300px;
+	width: 75%;
+	padding: 2%;
+	/*padding-top: 150px;*/
+}
+
+.login {
+	float: right;
+	padding: 25px;
+	padding-right: 10%;
+}
+
+form input {
+	height: 15px;
+	border-radius: 5px;
+	border: 3px;
+	padding: 8px 25px 8px 25px;
+	background-color: #fff;
+	margin-right: 10px;
+}
+
+select  {
+	border-radius: 5px;
+	border: 1px solid blue;
+	margin: 10px 0 10px 15px;
+	padding: 8px 25px 8px 25px;
+	background-color: #fff;
+	height: 50px;
+}
+
+#submit {
+	background-color: #fff;
+	height: 32px;
+	margin-top: 4px;
+}
+
+.login span {
+	color: #ff0000;
+	margin-bottom: 30px;
+}
+
+.regi {
+	width: 500px;
+}
+
+.regi input {
+	margin: 10px 0 10px 15px;
+	height: 30px;
+	border-color: #000;
+}
+
+#fail_user {
+	-moz-box-shadow: 2px 2px 2px 2px #ff0000;
+	-webkit-box-shadow: 2px 2px 2px 2px #ff0000;
+	box-shadow: 1px 0px 1px 3px #ff0000;
+}
+
+#fail_pw {
+	-moz-box-shadow: 2px 2px 2px 2px #ff0000;
+	-webkit-box-shadow: 2px 2px 2px 2px #ff0000;
+	box-shadow: 1px 0px 1px 3px #ff0000;
+}
+
+
+
+.formular input {
+	border: 1px solid blue;
+}
+
+/****************************************************************************************************************/
+
+/* ---------------*/
+/* --- footer --- */
+/* ---------------*/
+#footer {
+	background-image: -o-linear-gradient(bottom, #2071DB 0%, #1D67C8 100%);
+	background-image: -moz-linear-gradient(bottom, #2071DB 0%, #1D67C8 100%);
+	background-image: -webkit-linear-gradient(bottom, #2071DB 0%, #1D67C8 100%);
+	background-image: -ms-linear-gradient(bottom, #2071DB0 0%, #1D67C8 100%);
+	background-image: linear-gradient(to bottom, #2071DB 0%, #1D67C8 100%);
+	box-shadow: 0px 0px 15px 0px #000;
+	margin-bottom: 20px;
+	height: auto;
+	width: 100%;
+}
+
+#footer_center {
+	width: 100%;
+	min-height: 165px;
+	height: auto;
+	margin: 0 auto;
+}
+
+#footer_center div {
+	height: 115px;
+	float: left;
+	width: 150px;
+	padding: 25px;
+}
+
+#footer_center div p {
+	text-decoration: none;
+	color: white;
+}
+
+#footer_center div a {
+	text-decoration: none;
+	color: white;
+}
+
+#footer_center div .link:hover {
+	text-decoration: underline;
+}
+
+#footer_center div h2 {
+	font-family: 'Indie Flower', cursive;
+	color: #fff;
+	margin: 0;
+}
+
+#footer_center div p {
+	margin: 0;
+}
+
+#small_center{
+	width: 275px;
+	margin: 0 auto;
+}
+
+#small {
+	width: 300px;
+	height: 175px;
+	margin: 150px auto;
+	opacity: 0.5;
+	background-color: gray;
+	box-shadow: 3px 3px 3px #000;
+}
+
+#small form input {
+	padding: 15px;
+	margin: 5px auto;
+	color: #000;
+}
+
+#small form {
+	padding: 15px;
+	margin: 0 auto;
+	color: #000;
+}
+
+#sucess h3{
+	padding-top: 15px;
+	padding-left: 30px;
+}
+
+#sucess {
+	background-color: #9FF781;
+	border: 2px dashed #40FF00;
+	margin-bottom: 25px; 
+ 	margin-top: 120px; 
+ 	padding-bottom: 30px; 
+	width: 100%; 
+	height: 30px;
+	border-radius: 3px; 
+}
+
+/****************************************************************************************************************/
+
+/* -----------------*/
+/* --- Diverses --- */
+/* -----------------*/
+h1{
+	font-weight: bold;
+	font-size: 35px;
+	font-family: 'Indie Flower', cursive;
+	padding: 50px 25px 0 25px;
+	
+}
+p{
+	font-size: 18px;
+	padding: 25px 0 25px 25px
+	
+}
+.fett{
+	font-weight: bold;
+}
+
+#delete {
+	margin-bottom: 25px;
+	margin-top: 15px;
+	background-color: #9FF781;
+	padding-bottom: 30px;
+	width: 100%;
+	height: 65px;
+	border: 2px dashed #40FF00;
+	border-radius: 3px;
+}
+
+#delete a {
+	width: 150px;
+	text-align: center;
+	height: 15px;
+	padding: 5px 15px;
+	border: 1px solid gray;
+	margin-left: 15px;
+	border-radius: 3px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#E6E6E6),
+		to(#CCCCCC));
+	background-image: -webkit-linear-gradient(top, #E6E6E6, #CCCCCC);
+	background-image: -moz-linear-gradient(top, #E6E6E6, #CCCCCC);
+	background-image: -ms-linear-gradient(top, #E6E6E6, #CCCCCC);
+	background-image: -o-linear-gradient(top, #E6E6E6, #CCCCCC);
+	text-decoration: none;
+	color: #000;
+}
+
+#delete h3 {
+	padding: 35px;
+}
+
+#warning {
+	margin-bottom: 25px;
+	margin-top: 15px;
+	background-color: #F78181;
+	padding-bottom: 30px;
+	padding-top: 15px;
+	min-width: 500px;
+	width: 100%;
+	height: 200px;
+	border: 2px dashed red;
+	border-radius: 3px;
+}
+
+#warning a {
+	width: 150px;
+	text-align: center;
+	height: 15px;
+	padding: 5px 15px;
+	border: 1px solid gray;
+	margin-left: 15px;
+	border-radius: 3px;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#E6E6E6),
+		to(#CCCCCC));
+	background-image: -webkit-linear-gradient(top, #E6E6E6, #CCCCCC);
+	background-image: -moz-linear-gradient(top, #E6E6E6, #CCCCCC);
+	background-image: -ms-linear-gradient(top, #E6E6E6, #CCCCCC);
+	background-image: -o-linear-gradient(top, #E6E6E6, #CCCCCC);
+	text-decoration: none;
+	color: #000;
+}
+
+#warning h3 {
+	padding-left: 35px;
+}
+
+
+/****************************************************************************************************************/
+
+/* --------------*/
+/* --- break --- */
+/* --------------*/
+.break {
+	clear: both;
+	visibility: hidden;
+	padding: 0;
+}
+
+/****************************************************************************************************************/
+
+/* ----------------*/
+/* --- content --- */
+/* ----------------*/
+#content {
+	height: auto;
+	width: 100%;
+	background-color: #F4F0EA;
+	padding: 30px 0;
+	margin-top: 100px;
+	background-image: -o-linear-gradient(bottom, #fff 0%, #BECBFF 100%);
+	background-image: -moz-linear-gradient(bottom, #fff 0%, #BECBFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #fff 0%, #BECBFF 100%);
+	background-image: -ms-linear-gradient(bottom, #fff 0%, #BECBFF 100%);
+	background-image: linear-gradient(to bottom, #fff 0%, #BECBFF 100%);
+	height: 100%;
+
+}
+
+.titel {
+	font-weight: bold;
+	font-size: 35px;
+	font-family: 'Indie Flower', cursive;
+	padding: 30px 25px 15px 25px;
+	margin: 0;
+}
+
+.titel2 {
+	font-weight: bold;
+	font-size: 35px;
+	font-family: 'Indie Flower', cursive;
+	padding: 30px 25px 15px 0;
+	margin: 0;
+}
+
+.text {
+	font-size: 18px;
+	padding: 0px 0px 40px 25px;
+	margin: 0;
+}
+
+.uber {
+	font-size: 18px;
+	margin: 0;
+}
+
+.impressum {
+	font-size: 18px;
+	padding: 15px 30px 40px 30px;
+	margin: 0;
+}
+
+.leftu {
+	float: left;
+	width: 407px;
+	height: auto;
+	padding: 0;
+	margin: 0 0 30px 30px;
+}
+
+/****************************************************************************************************************/
+
+/* ------------------------------*/
+/* --- Hover Picture effects --- */
+/* ------------------------------*/
+
+
+
+/* ------------*/
+/* ---grid --- */
+/* ------------*/
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family: 'feathericons';
+	src: url('../fonts/feathericons/feathericons.eot?-8is7zf');
+	src: url('../fonts/feathericons/feathericons.eot?#iefix-8is7zf')
+		format('embedded-opentype'),
+		url('../fonts/feathericons/feathericons.woff?-8is7zf') format('woff'),
+		url('../fonts/feathericons/feathericons.ttf?-8is7zf')
+		format('truetype'),
+		url('../fonts/feathericons/feathericons.svg?-8is7zf#feathericons')
+		format('svg');
+}
+
+.grid {
+	position: relative;
+	margin: 0 auto;
+	padding: 80px 0 0 0;
+	max-width: 1000px;
+	list-style: none;
+	text-align: center;
+}
+
+/* Common style */
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	min-width: 300px;
+	max-width: 480px;
+	max-height: 360px;
+	width: 300px;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 100%;
+	max-width: 100%;
+	opacity: 0.8;
+}
+
+.grid figure figcaption {
+	width: 300px;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 1.25em;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	width: 300px;
+	height: 160px;
+}
+
+.grid figure figcaption, .grid figure figcaption>a {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption>a {
+	z-index: 1000;
+	text-indent: 200%;
+	white-space: nowrap;
+	font-size: 0;
+	opacity: 0;
+}
+
+.grid figure h2 {
+	word-spacing: -0.15em;
+	font-weight: 300;
+}
+
+.grid figure h2 span {
+	font-weight: 800;
+}
+
+.grid figure h2, .grid figure p {
+	margin: 0;
+}
+
+.grid figure p {
+	letter-spacing: 1px;
+	font-size: 68.5%;
+}
+
+/****************************************************************************************************************/
+
+/* -------------------*/
+/* --- Zoe effect --- */
+/* -------------------*/
+
+figure.effect-zoe figcaption {
+	top: auto;
+	bottom: 0;	
+	background: #2071DB;;
+	color: #fff;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+	width: 300px;
+	height: 50px;
+	padding: 0;
+}
+
+figure.effect-zoe:hover p.icon-links a:hover,
+figure.effect-zoe:hover p.icon-links a:focus {
+	color: #fff;
+	
+}
+
+figure.effect-zoe p.description {
+	position: absolute;
+	width: 400px;
+	bottom: 8em;
+	padding: 0;
+	color: #fff;
+	text-transform: none;
+	font-size: 90%;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+	-webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
+}
+
+figure.effect-zoe h2,
+figure.effect-zoe p.icon-links a {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,200%,0);
+	transform: translate3d(0,200%,0);
+}
+
+figure.effect-zoe p.icon-links a span::before {
+	display: inline-block;
+	padding: 8px 10px;
+	font-family: 'feathericons';
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+
+figure.effect-zoe h2 {
+	display: inline-block;
+	float: left;
+	font-size: 14px;
+	padding: 15px 0 0 15px;
+}
+
+figure.effect-zoe p.icon-links a {
+	float: right;
+	color: #fff;
+	font-size: 12px;
+	padding: 0px 20px 0 0;
+	
+}
+
+figure.effect-zoe:hover p.description {
+	opacity: 1;
+}
+
+figure.effect-zoe:hover figcaption,
+figure.effect-zoe:hover h2,
+figure.effect-zoe:hover p.icon-links a {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+figure.effect-zoe:hover h2 {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+figure.effect-zoe:hover p.icon-links a:nth-child(3) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+figure.effect-zoe:hover p.icon-links a:nth-child(2) {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+figure.effect-zoe:hover p.icon-links a:first-child {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+
+figure.effect-zoe{
+	height: 160px;
+	width: 300px;
+}
+
+/****************************************************************************************************************/
+/****************************************************************************************************************/
